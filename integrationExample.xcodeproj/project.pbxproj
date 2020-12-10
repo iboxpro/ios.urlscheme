@@ -11,22 +11,11 @@
 		5CC51C931A4103B8006ED22F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC51C921A4103B8006ED22F /* AppDelegate.m */; };
 		5CC51C961A4103B8006ED22F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC51C951A4103B8006ED22F /* ViewController.m */; };
 		5CC51C9B1A4103B8006ED22F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC51C9A1A4103B8006ED22F /* Images.xcassets */; };
-		5CC51CAA1A4103B8006ED22F /* integrationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC51CA91A4103B8006ED22F /* integrationExampleTests.m */; };
 		5CC5C0A11A41A5B6004BCBCA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CC5C0A01A41A5B6004BCBCA /* ViewController.xib */; };
 		5CC6119C1A42F14A005D3C76 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC6119A1A42F14A005D3C76 /* ViewController2.m */; };
 		5CC6119D1A42F14A005D3C76 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CC6119B1A42F14A005D3C76 /* ViewController2.xib */; };
 		5CDD9C301A424EAB00608822 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD9C2F1A424EAB00608822 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5CC51CA41A4103B8006ED22F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5CC51C821A4103B8006ED22F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5CC51C891A4103B8006ED22F;
-			remoteInfo = integrationExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5CC51C8A1A4103B8006ED22F /* integrationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = integrationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +26,6 @@
 		5CC51C941A4103B8006ED22F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5CC51C951A4103B8006ED22F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5CC51C9A1A4103B8006ED22F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5CC51CA31A4103B8006ED22F /* integrationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = integrationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CC51CA81A4103B8006ED22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CC51CA91A4103B8006ED22F /* integrationExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = integrationExampleTests.m; sourceTree = "<group>"; };
 		5CC5C0A01A41A5B6004BCBCA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		5CC611991A42F14A005D3C76 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		5CC6119A1A42F14A005D3C76 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
@@ -55,13 +41,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC51CA01A4103B8006ED22F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				5CC51C8C1A4103B8006ED22F /* integrationExample */,
-				5CC51CA61A4103B8006ED22F /* integrationExampleTests */,
 				5CC51C8B1A4103B8006ED22F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				5CC51C8A1A4103B8006ED22F /* integrationExample.app */,
-				5CC51CA31A4103B8006ED22F /* integrationExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +87,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5CC51CA61A4103B8006ED22F /* integrationExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				5CC51CA91A4103B8006ED22F /* integrationExampleTests.m */,
-				5CC51CA71A4103B8006ED22F /* Supporting Files */,
-			);
-			path = integrationExampleTests;
-			sourceTree = "<group>";
-		};
-		5CC51CA71A4103B8006ED22F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5CC51CA81A4103B8006ED22F /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,24 +107,6 @@
 			productReference = 5CC51C8A1A4103B8006ED22F /* integrationExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5CC51CA21A4103B8006ED22F /* integrationExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CC51CB01A4103B8006ED22F /* Build configuration list for PBXNativeTarget "integrationExampleTests" */;
-			buildPhases = (
-				5CC51C9F1A4103B8006ED22F /* Sources */,
-				5CC51CA01A4103B8006ED22F /* Frameworks */,
-				5CC51CA11A4103B8006ED22F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5CC51CA51A4103B8006ED22F /* PBXTargetDependency */,
-			);
-			name = integrationExampleTests;
-			productName = integrationExampleTests;
-			productReference = 5CC51CA31A4103B8006ED22F /* integrationExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,10 +118,7 @@
 				TargetAttributes = {
 					5CC51C891A4103B8006ED22F = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					5CC51CA21A4103B8006ED22F = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 5CC51C891A4103B8006ED22F;
+						DevelopmentTeam = PW69G8A5NY;
 					};
 				};
 			};
@@ -197,7 +136,6 @@
 			projectRoot = "";
 			targets = (
 				5CC51C891A4103B8006ED22F /* integrationExample */,
-				5CC51CA21A4103B8006ED22F /* integrationExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,13 +149,6 @@
 				5CC6119D1A42F14A005D3C76 /* ViewController2.xib in Resources */,
 				5CC51C9B1A4103B8006ED22F /* Images.xcassets in Resources */,
 				5CDD9C301A424EAB00608822 /* Default-568h@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CC51CA11A4103B8006ED22F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,23 +166,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC51C9F1A4103B8006ED22F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CC51CAA1A4103B8006ED22F /* integrationExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5CC51CA51A4103B8006ED22F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5CC51C891A4103B8006ED22F /* integrationExample */;
-			targetProxy = 5CC51CA41A4103B8006ED22F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5CC51CAB1A4103B8006ED22F /* Debug */ = {
@@ -288,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -323,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -334,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PW69G8A5NY;
 				INFOPLIST_FILE = integrationExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -345,44 +261,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PW69G8A5NY;
 				INFOPLIST_FILE = integrationExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		5CC51CB11A4103B8006ED22F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = integrationExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/integrationExample.app/integrationExample";
-			};
-			name = Debug;
-		};
-		5CC51CB21A4103B8006ED22F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = integrationExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/integrationExample.app/integrationExample";
 			};
 			name = Release;
 		};
@@ -403,15 +286,6 @@
 			buildConfigurations = (
 				5CC51CAE1A4103B8006ED22F /* Debug */,
 				5CC51CAF1A4103B8006ED22F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5CC51CB01A4103B8006ED22F /* Build configuration list for PBXNativeTarget "integrationExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5CC51CB11A4103B8006ED22F /* Debug */,
-				5CC51CB21A4103B8006ED22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
